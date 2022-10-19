@@ -11,9 +11,21 @@ The Auction API is built on REST principles, that can be used to access informat
 All requests to our API are supposed to be sent to this endpoint. Below you will find a list of endpoints that the API supports.
 
     https://api.auction.com/api/v1/
-
-Step 1: Choose endpoint URL
+<br>
+    
+### API endpoints: 
 
 Auction information using the Auction API is simple. A standard API request is performed using the API's `auctions` endpoint:
 
-- http://api.auction.com/auctions
+
+| Endpoint            | Description                                                  | URI                                        |
+| ------------------- | -------------------------------------------------------------|--------------------------------------------|
+| /auctions           | This provides a list of auctions available                   |  `http://api.auction.com/auctions`         |
+| /auctions/:id        | This will return an auction with corresponding id           |  `http://api.auction.com/auctions/:id`     |
+| /auctions/random    | This will return a random auction based on its id            |  `http://api.auction.com/auctions/random`  |
+| /auctions/search    | Text                                                         |  `http://api.auction.com/auctions/search`  |
+| /auctions/upcoming  | This will return auctions upcoming in the next week          |  `http://api.auction.com/auctions/upcoming`|
+| /auctions/:id/bids  | This will return the bids of a prticular auction with that id|  `http://api.auction.com/auctions/:id/bids`|
+
+
+
