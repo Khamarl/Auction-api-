@@ -31,6 +31,15 @@ Auction information using the Auction API is simple. A standard API request is p
 
 ## About auction endpoints:
 
+| Endpoint                 | Type                 |
+| -------------------------| ---------------------|
+| `GET`/auctions           |                      |  
+| `GET`/auctions/:id       |                      |  
+| `GET`/auctions/random    |                      |  
+| `GET`/auctions/search    |                      |  
+| `GET`/auctions/upcoming  |                      | 
+| `GET`/auctions/:id/bids  |                      |  
+
 As a RESTful application, we therefore use GET , PATCH, POST and DELETE HTTP requests to deal with our data. 
 
 ### Example request:
