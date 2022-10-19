@@ -35,7 +35,7 @@ As a RESTful application, we therefore use GET , PATCH, POST and DELETE HTTP req
 
 ### Example request:
 
-get https://api.auction.com/auctions
+`get https://api.auction.com/auctions`
 
 
        results: [] 50 items
