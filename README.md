@@ -63,6 +63,9 @@ As a RESTful application, we therefore use GET , PATCH, POST and DELETE HTTP req
 
 ## Query URI's
 
+Auction API allows you to add queries to the end of the search URI.  For example, you can request all the cars up for auction: 
+
+`https://api.auction.com/auctions/search?=cars`
 
 
 
