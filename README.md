@@ -37,18 +37,18 @@ As a RESTful application, we therefore use GET , PATCH, POST and DELETE HTTP req
 
 get https://api.auction.com/auctions
 
-Result:
-        results: [] 50 items
-  0: {} 9 keys
-    title: "Banged up Saxo"
-    starting bid: "£5"
-    current bid: "£5.01"
-    remaining duration: "2 days"
-    odomoter: "450,736"
-    fuel type: "petrol"
-    colour: "blue"
-    keys: "no"
-    transmission: "manual"
+
+       results: [] 50 items
+         0: {} 9 keys
+         title: "Banged up Saxo"
+         starting bid: "£5"
+         current bid: "£5.01"
+         remaining duration: "2 days"
+         odomoter: "450,736"
+         fuel type: "petrol"
+         colour: "blue"
+         keys: "no"
+         transmission: "manual"
 
 <br>
 
